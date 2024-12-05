@@ -1,0 +1,28 @@
+List = open("day1_input").readlines()
+x = List.split("'\n',")
+print(x)
+
+
+
+
+
+A == X = Rock = 1
+B == Y = Paper = 2
+C == Z = Scissors = 3
+
+1 > 3
+2 > 1
+3 > 2
+
+
+if a = 1 + b = 1 then score = 1 + 3
+if a = 1 + b = 2 then score = 1 + 0
+if a = 1 + b = 3 then score = 1 + 6
+
+if a = 2 + b = 1 then score = 2 + 6
+if a = 2 + b = 2 then score = 2 + 3
+if a = 2 + b = 3 then score = 2 + 0
+
+if a = 3 + b = 1 then score = 3 + 0
+if a = 3 + b = 2 then score = 3 + 6
+if a = 3 + b = 3 then score = 3 + 3
