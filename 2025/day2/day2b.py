@@ -20,7 +20,8 @@ for seq in id_list:
     #print(seq)
     for id_string in seq:
         if len(id_string) % 2 == 0:
-            a, b = id_string[:len(id_string)//2], id_string[len(id_string)//2:]
+            mid = len(id_string) // 2
+            a, b = id_string[:mid], id_string[mid:]
             if a == b:
                 #print(f"True {id_string} is {a} & {b}")
                 total += int(id_string)
