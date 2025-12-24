@@ -6,6 +6,7 @@ t1 = time.time() * 1000
 with open("../../2025/inputs/day4test.txt") as f:
     # Reads the file, splits lines, splits numbers, converts to int
     # All in one highly optimized pass
+    print(f)
     data = [[digit for digit in line.strip()]for line in f if line.strip()]
 
 def get_coordinates(pos, current_data):
